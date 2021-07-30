@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Test Suite" verbose="2" parallel="methods" thread-count="2">
+
+<test name="Test Cases">
+<parameter name="inputname" value="DUCK"></parameter>
+<classes>
+
+
+<class name="testNG.Parametersexample"></class>
+
+
+</classes>
+
+</test>
+
+</suite>
+
+
+<!-- <class name="testNG.Dependenciesexm"></class>
+<class name="testNG.Suitexample"></class> -->
+
+<!-- <groups>
+
+<run >
+
+    <exclude name="vivo"></exclude>
+    <exclude name="redmi"></exclude>
+
+</run>
+
+</groups> -->
+

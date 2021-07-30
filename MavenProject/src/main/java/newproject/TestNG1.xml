@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Project1">
+
+<test name="Test Proj"/>
+<Parameter name="user" value="Admin"/>
+<Parameter name="pass" value="admin"/>
+
+
+<Classes>
+
+<Class name="newproject.Fourlogincheck"></Class>
+
+</Classes>
+
+
+</suite>
